@@ -2,9 +2,15 @@
   <router-view />
 </template>
 <script>
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: 'App'
-})
+  name: "App",
+});
 </script>
+
+<style>
+.text-strikethough {
+  text-decoration: line-through;
+}
+</style>
