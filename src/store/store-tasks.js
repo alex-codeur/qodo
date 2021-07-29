@@ -3,24 +3,24 @@ import { uid } from 'quasar'
 
 const state = {
     tasks: {
-        // 'ID1': {
-        //     name: "Go to shop",
-        //     completed: false,
-        //     dueDate: "2021/07/29",
-        //     dueTime: "18:30",
-        // },
-        // 'ID2': {
-        //     name: "Get bananas",
-        //     completed: false,
-        //     dueDate: "2021/07/29",
-        //     dueTime: "14:00",
-        // },
-        // 'ID3': {
-        //     name: "Get apples",
-        //     completed: false,
-        //     dueDate: "2021/07/29",
-        //     dueTime: "16:30",
-        // },
+        'ID1': {
+            name: "Go to shop",
+            completed: false,
+            dueDate: "2021/07/29",
+            dueTime: "18:30",
+        },
+        'ID2': {
+            name: "Get bananas",
+            completed: false,
+            dueDate: "2021/07/29",
+            dueTime: "14:00",
+        },
+        'ID3': {
+            name: "Get apples",
+            completed: false,
+            dueDate: "2021/07/29",
+            dueTime: "16:30",
+        },
     }
 }
 
